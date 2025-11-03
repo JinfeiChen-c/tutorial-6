@@ -34,10 +34,26 @@ A classic match-3 puzzle game built with Makecode Arcade. Swap adjacent food til
 
 	
 ## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+### Configuration
+- Grid size: 8x8
+- Tile size: 16x16 pixels
+- Food types: 5
+
+### Core Functions
+- init() - Initialize game board and score
+- draw() - Render all tiles on screen
+- makeCur() - Create cursor sprite
+- check() - Detect 3+ matches in rows/columns
+- clear() - Remove matched tiles and update score
+- fill() - Drop tiles and generate new ones
+- swap() - Exchange two adjacent tiles
+
+### Game Logic
+1. Player selects two adjacent tiles
+2. Tiles swap positions
+3. Check for matches
+4. If matches found: Remove tiles, fill gaps, repeat check
+5. If no matches: swap back
 
 ## Setup
 This project is simple Lorem ipsum dolor generator.
