@@ -1,5 +1,3 @@
-Python 3.13.6 (v3.13.6:4e665351082, Aug  6 2025, 11:22:35) [Clang 16.0.0 (clang-1600.0.26.6)] on darwin
-Enter "help" below or click "Help" above for more information.
 game.splash("Hotpot Match")
 
 SIZE = 8
