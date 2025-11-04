@@ -71,7 +71,7 @@ foods = [food1, food2, food3,food4,food5,food6] # 6 types
 board[r].append(randint(O, 5)) #Update range
 ```
 
-###Change Background Color
+### Change Background Color
 ```python
 scene.set_background_color(1) # Try colors 1-15
 
