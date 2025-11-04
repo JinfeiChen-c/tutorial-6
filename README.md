@@ -55,5 +55,32 @@ A classic match-3 puzzle game built with Makecode Arcade. Swap adjacent food til
 4. If matches found: Remove tiles, fill gaps, repeat check
 5. If no matches: swap back
 
+## Customization
+### Change Grid Size
+```python
+SIZE=10 # Make it 10x10
+
+Update boundary checks:
+```python
+if row < 9: # Change from 7 to SIZZE-1
+if col < 9:
+```
+### Add more Food Types
+```python
+foods = [food1, food2, food3,food4,food5,food6] # 6 types
+board[r].append(randint(O, 5)) #Update range
+```
+
+###Change Background Color
+```python
+scene.set_background_color(1) # Try colors 1-15
+
+## License
+Open source for educational purposes.
+
+---
+
+Enjoy the game!
+
 ## Setup
 This project is simple Lorem ipsum dolor generator.
